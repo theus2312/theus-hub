@@ -1,6 +1,7 @@
 local exploit = getexecutorname or identifyexecutor
 local support = {
     ["Fluxus"] = true,
+    ["Wave"] = true,
     ["Trigon"] = true,
     ["Codex"] = true,
     ["Delta"] = true,
@@ -81,15 +82,15 @@ local Window = Fluent:CreateWindow({
 })
 local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "rbxassetid://88586466206823" }),
-    Setting = Window:AddTab({ Title = "Setting", Icon = "rbxassetid://88147973848189" }),
-    Stats = Window:AddTab({ Title = "Stats", Icon = "rbxassetid://88147973848189" }),
-    Player = Window:AddTab({ Title = "Player", Icon = "rbxassetid://88147973848189" }),
-    Teleport = Window:AddTab({ Title = "Teleport", Icon = "rbxassetid://88147973848189" }),
-    Fruit = Window:AddTab({ Title = "Fruit", Icon = "rbxassetid://88147973848189" }),
-    Raid = Window:AddTab({ Title = "Raid", Icon = "rbxassetid://88147973848189" }),
-    Race = Window:AddTab({ Title = "Race V4", Icon = "rbxassetid://88147973848189" }),
-    Shop = Window:AddTab({ Title = "Shop", Icon = "rbxassetid://88147973848189" }),
-	Misc = Window:AddTab({ Title = "Misc", Icon = "rbxassetid://88147973848189" }),
+    Setting = Window:AddTab({ Title = "Setting", Icon = "rbxassetid://88586466206823" }),
+    Player = Window:AddTab({ Title = "Player", Icon = "rbxassetid://88586466206823" }),
+    Teleport = Window:AddTab({ Title = "Teleport", Icon = "rbxassetid://88586466206823" }),
+    Stats = Window:AddTab({ Title = "Stats", Icon = "rbxassetid://88586466206823" }),
+    Fruit = Window:AddTab({ Title = "Fruit", Icon = "rbxassetid://88586466206823" }),
+    Raid = Window:AddTab({ Title = "Raid", Icon = "rbxassetid://88586466206823" }),
+    Race = Window:AddTab({ Title = "Race V4", Icon = "rbxassetid://88586466206823" }),
+    Shop = Window:AddTab({ Title = "Shop", Icon = "rbxassetid://88586466206823" }),
+	Misc = Window:AddTab({ Title = "Misc", Icon = "rbxassetid://88586466206823" }),
 }
 local Options = Fluent.Options
 do
